@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     //declarando a variavel que representara o componente xml
     FloatingActionButton idFAB;
 
-    ExtendedFloatingActionButton idFABEXTEND;
+    ExtendedFloatingActionButton idFABExtend;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         });
         //apresentar ao java o xml
         idFAB = findViewById(R.id.idFAB);
-        idFABEXTEND = findViewById(R.id.idFABEXTEND);
+        idFABExtend = findViewById(R.id.idFABExtend);
 
 
         idFAB.setOnClickListener(new View.OnClickListener() {
@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Cliquei no FAB", Toast.LENGTH_SHORT).show();
             }
         });
-        idFABEXTEND.setOnClickListener(new View.OnClickListener() {
+        idFABExtend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Clique no FABEXTENDED", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Clique no FABExtend", Toast.LENGTH_SHORT).show();
             }
         });
 
