@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         idFABExtend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Clique no FABExtend", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Cliquei no FABExtend", Toast.LENGTH_SHORT).show();
             }
         });
 
